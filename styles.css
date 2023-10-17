@@ -1,0 +1,68 @@
+/* adding one image that covers the entire page */
+body{
+    
+    background-image: url("pumpkin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* adding space and border around images in selectahand.html */
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    float:right;
+}
+/* setting all font used in the p element to white */
+  p {
+    color:  white;
+    
+    
+  }
+/* setting all font used in the li element to red */
+  li {
+    color:  rgb(243, 9, 9);
+  }
+  /* adding a border to all images */
+  img {
+    
+    border: rgb(251, 249, 249) solid 20px;
+  }
+/* adding space to all div elements with a background color */
+div {
+    margin: 5rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 1, 0.855);
+    
+}
+/* aligning all h1 headings with a dropdown shadow */
+h1{
+    text-align: left;
+    filter: drop-shadow(1px 1px 3px #f7560b);
+  }
+/* setting background color to red in this element */
+  .redbox{
+    background-color: red;
+  }
+ 
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+/* colorizing table by rows with alignment and space around it */
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(3, 97, 31);
+  }
+
+  tr:nth-child(odd) {
+    background-color: #24f01d;
+  }
+  tr:nth-child(even) {
+    background-color: yellowgreen;
+  }
+
+  tr:hover {
+    background-color: white;
+  }
